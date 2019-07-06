@@ -5,9 +5,9 @@ Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Ste
 
 ### Dependencies
 
--kaldi 
+- kaldi 
 
--srilm (can be built with kaldi/tools/install_srilm.sh)
+- srilm (can be built with kaldi/tools/install_srilm.sh)
 
 ### Path
 
@@ -38,6 +38,25 @@ $ bash  progress/process_lm.sh
 ```
 $ bash progress/run.sh
 ```
+
+## Files and Directories
+
+* **conf** : configuration files (Ex: number of bins in extracting mfcc)
+
+* **local** : training scripts for librispeech
+
+* **progress** : our training scripts put in here
+
+* **pyutils** : python codes written by Tsai
+
+* **tuan_pyutils** : python codes written by Tuan
+
+* **path.sh** : specified paths for kaldi, srilm...etc
+
+* **steps** : You should soft link steps directory in wsj to it.(ln -s $wsj_steps ./)
+
+* **utils** : You should soft link utils directory in wsj to it (ln -s $wsj_utils ./)
+
 
 ## Citation
 
