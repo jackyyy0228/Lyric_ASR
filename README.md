@@ -13,6 +13,8 @@ Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Ste
 
 - Modify path.sh with your path of kaldi and srilm.
 
+- Relink utils and steps to kaldi/egs/wsj/s5/utils and kaldi/egs/wsj/s5/steps.
+
 ### Preprocess acoustic data
 
 - Modify path of vocal_data in progress/prepare_data.sh
