@@ -1,0 +1,16 @@
+ID  ID Set       Genre                                    sec   wer  
+002 1 test_clean ELECTRONIC                               175.62 97.99
+007 1 test_clean POP RNB_SOUL                             171.30 137.65
+011 1 test_clean POP ELECTRONIC ROCK                      196.90 97.65
+022 1 test_clean POP ELECTRONIC                           177.90 99.72
+026 2 test_clean POP ELECTRONIC                           81.10 97.28
+031 1 test_clean ELECTRONIC                               124.80 96.71
+036 1 test_clean ROCK ELECTRONIC                          169.80 97.21
+062 1 test_clean POP                                      207.90 97.62
+062 2 test_clean POP ROCK ELECTRONIC                      204.50 93.37
+062 3 test_clean POP ROCK                                 183.20 99.62
+067 1 test_clean ROCK                                     202.70 126.92
+074 1 test_clean ROCK HIPHOP                              103.10 285.36
+076 1 test_clean ELECTRONIC HIPHOP                        192.00 108.94
+086 1 test_clean HIPHOP RNB_SOUL                          209.70 136.51
+089 1 test_clean RNB_SOUL                                 169.80 93.60

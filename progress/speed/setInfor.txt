@@ -1,0 +1,4 @@
+train_fast : 5709.55 (s)
+train_slow : 10503.94 (s)
+test_fast  : 1147.10 (s)
+test_slow  : 1423.22 (s)
