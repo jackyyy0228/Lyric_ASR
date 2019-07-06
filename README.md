@@ -13,7 +13,7 @@ Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Ste
 
 - Modify path.sh with your path of kaldi and srilm.
 
-### Preprocess
+### Preprocess acoustic data
 
 - Modify path of vocal_data in progress/prepare_data.sh
 
@@ -21,6 +21,14 @@ Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Ste
 
 ```
 $ bash progress/prepare_data.sh
+```
+
+### Train LMs
+
+- Modify paths in progress/process_lm.sh
+
+```
+$ bash  progress/process_lm.sh
 ```
 
 ### Train HMM-GMM models
