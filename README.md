@@ -53,9 +53,9 @@ $ bash progress/run.sh
 
 * **path.sh** : specified paths for kaldi, srilm...etc
 
-* **steps** : You should soft link steps directory in wsj to it.(ln -s $wsj_steps ./)
+* **steps** : One should soft link steps directory in wsj to it.(ln -s $wsj_steps ./)
 
-* **utils** : You should soft link utils directory in wsj to it (ln -s $wsj_utils ./)
+* **utils** : One should soft link utils directory in wsj to it (ln -s $wsj_utils ./)
 
 
 ## Citation
