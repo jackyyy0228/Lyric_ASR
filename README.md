@@ -1,5 +1,5 @@
 # Lyric_ASR
-Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Step Towards Singing Content Processing"
+Implementation of ["Transcribing Lyrics From Commercial Song Audio: The First Step Towards Singing Content Processing"](https://arxiv.org/abs/1804.05306)
 
 ## How to use
 
@@ -7,17 +7,17 @@ Implementation of "Transcribing Lyrics From Commercial Song Audio: The First Ste
 
 - kaldi 
 
-- srilm (can be built with kaldi/tools/install_srilm.sh)
+- srilm (can be built with `kaldi/tools/install_srilm.sh`)
 
 ### Path
 
 - Modify path.sh with your path of kaldi and srilm.
 
-- Relink utils and steps to kaldi/egs/wsj/s5/utils and kaldi/egs/wsj/s5/steps.
+- Relink utils and steps to `kaldi/egs/wsj/s5/utils` and `kaldi/egs/wsj/s5/steps`.
 
 ### Preprocess acoustic data
 
-- Modify path of vocal_data in progress/prepare_data.sh
+- Modify path of vocal_data in `progress/prepare_data.sh`
 
 - Then run following commands:
 
@@ -27,7 +27,7 @@ $ bash progress/prepare_data.sh
 
 ### Train LMs
 
-- Modify paths in progress/process_lm.sh
+- Modify paths in `progress/process_lm.sh`
 
 ```
 $ bash  progress/process_lm.sh
@@ -47,15 +47,15 @@ $ bash progress/run.sh
 
 * **progress** : our training scripts put in here
 
-* **pyutils** : python codes written by Tsai
+* **pyutils** : python codes (often used by scripts) written by Tsai
 
-* **tuan_pyutils** : python codes written by Tuan
+* **more_tools** : other python codes (independent to the scripts) written by Tuan
 
 * **path.sh** : specified paths for kaldi, srilm...etc
 
-* **steps** : One should soft link steps directory in wsj to it.(ln -s $wsj_steps ./)
+* **steps** : One should soft link steps directory in wsj to it.(`ln -s $wsj_steps ./`)
 
-* **utils** : One should soft link utils directory in wsj to it (ln -s $wsj_utils ./)
+* **utils** : One should soft link utils directory in wsj to it (`ln -s $wsj_utils ./`)
 
 
 ## Citation
