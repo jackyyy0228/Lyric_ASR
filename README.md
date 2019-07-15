@@ -42,13 +42,13 @@ $ bash progress/run.sh
 ### Train blstm models
 
 ```
-     bash progress/nnet3/run_blstm_wsj.sh 10 500 125 2
+$ bash progress/nnet3/run_blstm_wsj.sh 10 500 125 2
 ```
 
 ### Train tdnn-lstm models
 
 ```
-     bash progress/nnet3/run_tdnn_lstm_1a_wsj.sh 10 130 65
+$ bash progress/nnet3/run_tdnn_lstm_1a_wsj.sh 10 130 65
 ```
 
 ## Files and Directories
