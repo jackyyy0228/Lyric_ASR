@@ -17,6 +17,8 @@ Implementation of ["Transcribing Lyrics From Commercial Song Audio: The First St
 
 ### Preprocess acoustic data
 
+- Vocal data can be obtained from [another repository](https://github.com/Pascalson/vocaldata).
+
 - Modify path of vocal_data in `progress/prepare_data.sh`
 
 - Then run following commands:
